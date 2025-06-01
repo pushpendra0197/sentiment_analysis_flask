@@ -5,6 +5,7 @@ import nltk
 import re 
 import seaborn as sns
 import string
+nltk.download("stopwords")
 from nltk.corpus import stopwords
 stop=stopwords.words("english")
 from nltk.stem import PorterStemmer
