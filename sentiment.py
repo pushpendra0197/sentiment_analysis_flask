@@ -7,6 +7,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 import spacy
 import nltk
 import re
+nltk.download("stopwords")
 from nltk.corpus import stopwords
 stop=stopwords.words("english")
 import string
