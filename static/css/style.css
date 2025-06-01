@@ -1,0 +1,8 @@
+
+body{background-image: url('/static/images/Diving_Into_the_Customer_Satisfaction_Survey_hero.png'); background-repeat: no-repeat;background-position: center;
+margin-top: 45%;}
+
+#heading{top:3px;position: absolute;left:12cm;font-size: x-large;color:springgreen;font-family: 'Times New Roman', Times, serif;text-decoration-line:underline;height: 2cm;}
+#box{bottom:50px;position: absolute;left:10cm;font-size: larger;border: 1px black solid;background-color:aquamarine;color: black;font-family: 'Times New Roman', Times, serif;}
+#box1{bottom:15px;position: absolute;left:11.5cm;font-size: larger;border: 1px black solid;background-color:aquamarine;color:red;font-family: 'Times New Roman', Times, serif;}
+#Prediction{bottom:22px;position: absolute;left:18cm;border-radius: 20%;}

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment_Analysis</title>
+    <link rel="stylesheet" href="static\css\style.css">
+</head>
+<body>
+    <h3 id="heading">Sentiment Prediction On Food Reviews</h3>
+    <form action="/predict" method="post">
+        <div><input type="text" name="input_given" placeholder="Enter Your Review" id="box"></div>
+        <button id="box1">Predict</button>
+    </form>
+    <h1 id="Prediction">{{Prediction}}</h1>
+</body>
+</html>
